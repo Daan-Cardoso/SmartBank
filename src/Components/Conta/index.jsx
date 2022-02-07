@@ -64,7 +64,7 @@ const Conta = () => {
 
       <BtnConta onClick={toggleHandler}>
         <Icone
-          style={{ marginTop: "2px" }}
+          marginTop='2px'
           src={toggleState ? privado : olho_icone}
           alt="Privacidade do Saldo"
         />
